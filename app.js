@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('#formOne').submit(function() {
+		// Interface Logic
 		event.preventDefault();
 		$('#summary').empty();
 		const input = $('#userNumbers').val();

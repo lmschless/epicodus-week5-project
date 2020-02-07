@@ -1,6 +1,6 @@
 # Independent looping project for Epicodus JS/React Bootcamp
 
-#### _Accepts a number from user and returns a range of numbers from 0 to the inputted number with some exceptions. , 2/6/20_
+#### _Accepts a number from user and returns a range of numbers from 0 to the inputted number with some exceptions._ , _2/6/20_
 
 #### By _**Luke Schlessinger**_
 
@@ -15,7 +15,7 @@
 
   * Spec 2: The program returns a range of numbers from 0 to the users inputted number
     + Input: Contains a 3
-    + Output: "I'm sorry, Dave. I'm afraid I can't do that. "
+    + Output: "I'm sorry, ${name}. I'm afraid I can't do that. "
 
   * Spec 3: The program replaces all currentNumbers that contain a 2 with "Boop!"
     + Input: Contains a 2
@@ -33,16 +33,11 @@
     + Input: "Not a string"
     + Output: "Error: please input a string!" add class red to input.
 
-  * Spec 6: The program checks if the reverse numbers checked is checked.
+  * Spec 7: The program checks if the reverse numbers checked is checked.
     + Input: "Checked"
     + Output: "The beepBoopReversed() function is called and the program begins counting down from the input.
-
-    
      
 ## Future Features
-
-* __
-* __
 * _Styling, design._
 
 ## Support and contact details
@@ -51,7 +46,7 @@ _Please open an issue if you find any bugs, thanks!_
 
 ## Technologies Used
 
-_Bootstrap for the form. jQuery._
+_Bootstrap for the form. Google Font library for body,  jQuery._
 
 ### License
 
