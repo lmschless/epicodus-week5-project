@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#formOne').submit(function() {
-		const arr = $('#userString').val().split('');
+		const input = $('#userString').val();
 		//console.log(arr);
 		event.preventDefault();
 	});
