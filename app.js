@@ -4,15 +4,20 @@ $(document).ready(function() {
 		$('#summary').empty();
 		const input = $('#userString').val();
 		const name = $('#userName').val();
+		$('#userName').removeClass('red');
+		$('#userString').removeClass('red');
 
 		if (!isNaN(name)) {
+			$('#userName').addClass('red');
 			$('#summary').append(
 				`<div id="img-div"><h2>Error, does not compute: please enter your name, no numbers allowed!</h2><img src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&" class=""></div>`
 			);
+
 			return;
 		}
 
 		if (isNaN(input)) {
+			$('#userString').addClass('red');
 			$('#summary').append(
 				`<div id="img-div"><h2>Error, does not compute: please enter a number.</h2><img src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&" class=""></div>`
 			);

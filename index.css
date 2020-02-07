@@ -35,6 +35,11 @@ h2 {
 	float: left;
 }
 
+.red {
+	border-style: dashed;
+	background-color: red;
+}
+
 #button {
 	margin-left: 34%;
 	max-width: 60%;
@@ -54,6 +59,9 @@ button {
 img {
 	max-height: 20em;
 	float: right;
+	border-style: solid;
+	border-color: #228285;
+	border-radius: 100px;
 }
 
 #img-div {
