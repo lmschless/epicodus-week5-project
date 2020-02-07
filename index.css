@@ -1,3 +1,27 @@
 html {
 	height: 100%;
 }
+
+.form-group {
+	margin-left: 40%;
+	max-width: 42%;
+}
+
+h1 {
+	text-align: center;
+}
+
+#button {
+	margin-left: 35%;
+	max-width: 60%;
+}
+
+button {
+	border-radius: 10em;
+	border: none;
+}
+
+img {
+	max-height: 20em;
+	position: ;
+}
