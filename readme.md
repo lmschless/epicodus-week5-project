@@ -41,7 +41,7 @@ _Please open an issue if you find any bugs, thanks!_
 
 ## Technologies Used
 
-_Bootstrap for the form and table. jQuery. Google fonts. Font Awesome_
+_Bootstrap for the form. jQuery._
 
 ### License
 
