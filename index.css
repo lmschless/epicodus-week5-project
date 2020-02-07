@@ -2,13 +2,23 @@ html {
 	height: 100%;
 }
 
+body {
+	background-color: #228285;
+}
+
+h1 {
+	text-align: center;
+}
+
 .form-group {
 	margin-left: 40%;
 	max-width: 42%;
 }
 
-h1 {
-	text-align: center;
+h2 {
+	text-align: left;
+	width: 50%;
+	float: left;
 }
 
 #button {
@@ -23,5 +33,12 @@ button {
 
 img {
 	max-height: 20em;
-	position: ;
+	float: right;
+	/* align-items: center; */
+}
+
+#img-div {
+	text-align: right;
+	vertical-align: initial;
+	/* position: absolute; */
 }

@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 		if (isNaN(input)) {
 			$('#summary').append(
-				`<h1>Error does not compute: please enter a number.</h1><div class= "container vw-10 vh-10"><img src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&" class="img-thumbnail vw-10 vh-10"></div>`
+				`<div id="img-div"><h2>Error does not compute: please enter a number.</h2><img src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&" class=""></div>`
 			);
 			return;
 		}
