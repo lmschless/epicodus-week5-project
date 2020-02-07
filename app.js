@@ -5,7 +5,9 @@ $(document).ready(function() {
 		const input = $('#userString').val();
 
 		if (isNaN(input)) {
-			$('#summary').append(`<h1>Error: please input a number!</h1>`);
+			$('#summary').append(
+				`<h1>Error does not compute: please enter a number.</h1><div container mh-10 mw-10><img src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1939&q=80" class="img-thumbnail mw-10 mh-10"></div>`
+			);
 			return;
 		}
 		const beepBoop = () => {
