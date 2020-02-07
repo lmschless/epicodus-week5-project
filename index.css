@@ -40,7 +40,8 @@ h2 {
 	max-width: 60%;
 }
 
-#userString {
+#userString,
+#userName {
 	border-radius: 10em;
 	border: none;
 }

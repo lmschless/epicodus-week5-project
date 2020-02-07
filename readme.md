@@ -17,17 +17,23 @@
     + Input: Contains a 3
     + Output: "I'm sorry, Dave. I'm afraid I can't do that. "
 
-  * Spec 3: The program returns a range of numbers from 0 to the users inputted number
+  * Spec 3: The program replaces all currentNumbers that contain a 2 with "Boop!"
     + Input: Contains a 2
     + Output: "Boop!"
 
-  * Spec 4: The program returns a range of numbers from 0 to the users inputted number
+  * Spec 4: The program replaces all currentNumbers that contain a 1 with "Beep!"
     + Input: Contains a 1
     + Output: "Beep!"
 
-  * Spec 5: The program returns a range of numbers from 0 to the users inputted number
+  * Spec 5: The program checks the number input field
     + Input: "Not a number"
     + Output: "Error: please input a number!"
+
+  * Spec 6: The program checks the name input field
+    + Input: "Not a string"
+    + Output: "Error: please input a string!"
+
+    
      
 ## Future Features
 
