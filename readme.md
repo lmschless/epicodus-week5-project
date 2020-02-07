@@ -1,12 +1,14 @@
 # Independent looping project for Epicodus JS/React Bootcamp
 
-#### _Accepts a number from user and returns a range of numbers from 0 to the inputted number with some exceptions._ , _2/6/20_
+#### _Accepts a number from user and returns a range of numbers from 0 to the inputted number with some exceptions._
+
+#### _2/6/20_
 
 #### By _**Luke Schlessinger**_
 
 ## Setup/Installation Requirements
 
-* _Requires: index.html, app.js, index.css_
+* _Requires: index.html, app.js, index.css, any modern browser - IE is not supported._
 
 ## Specifications:
   * Spec 1: The program returns a range of numbers from 0 to the users inputted number
@@ -46,10 +48,10 @@ _Please open an issue if you find any bugs, thanks!_
 
 ## Technologies Used
 
-_Bootstrap for the form. Google Font library for body,  jQuery._
+_Bootstrap for the form. Google Font library for body,  jQuery, Vanilla JS, CSS._
 
 ### License
 
-* The MIT License (MIT) *
+* The MIT License (MIT) 
 
 Copyright (c) 2020 **_Luke Schlessinger_**
