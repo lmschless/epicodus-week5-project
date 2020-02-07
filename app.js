@@ -2,16 +2,14 @@ $(document).ready(function() {
 	$('#formOne').submit(function() {
 		event.preventDefault();
 		$('#summary').empty();
-		//console.log(arr);
-		const beepBoop = () => {
-			const input = $('#userString').val();
-			// console.log(splitInput);
-			if (isNaN(input)) {
-				console.log('Error: please input a number!');
-				// return;
-			}
-			let currentNumber = 0;
+		const input = $('#userString').val();
 
+		if (isNaN(input)) {
+			$('#summary').append(`<h1>Error: please input a number!</h1>`);
+			return;
+		}
+		const beepBoop = () => {
+			let currentNumber = 0;
 			while (currentNumber !== parseInt(input)) {
 				let currentSplit = currentNumber.toString().split('');
 				// console.log(currentNumber);
@@ -30,10 +28,6 @@ $(document).ready(function() {
 					console.log(currentNumber);
 				}
 				currentNumber += 1;
-
-				// 	if (currentNumber ===  console.log(currentNumber);
-				// }
-				// }
 			}
 		};
 		beepBoop();

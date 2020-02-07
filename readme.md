@@ -9,13 +9,26 @@
 * _Requires: index.html, app.js, index.css_
 
 ## Specifications:
-  1. 
-     *Spec: The program returns a range of numbers from 0 to the users inputted number
-       *Input: "4"
-        Output: "0, 1, 2, 3, 4"
-_
+  * Spec 1: The program returns a range of numbers from 0 to the users inputted number
+    + Input: "4"
+    + Output: "0, 1, 2, 3, 4"
 
+  * Spec 2: The program returns a range of numbers from 0 to the users inputted number
+    + Input: Contains a 3
+    + Output: "I'm sorry, Dave. I'm afraid I can't do that. "
 
+  * Spec 3: The program returns a range of numbers from 0 to the users inputted number
+    + Input: Contains a 2
+    + Output: "Boop!"
+
+  * Spec 4: The program returns a range of numbers from 0 to the users inputted number
+    + Input: Contains a 1
+    + Output: "Beep!"
+
+  * Spec 5: The program returns a range of numbers from 0 to the users inputted number
+    + Input: "Not a number"
+    + Output: "Error: please input a number!"
+     
 ## Future Features
 
 * __
