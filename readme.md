@@ -27,11 +27,15 @@
 
   * Spec 5: The program checks the number input field
     + Input: "Not a number"
-    + Output: "Error: please input a number!"
+    + Output: "Error: please input a number!" add class red to input.
 
   * Spec 6: The program checks the name input field
     + Input: "Not a string"
-    + Output: "Error: please input a string!"
+    + Output: "Error: please input a string!" add class red to input.
+
+  * Spec 6: The program checks if the reverse numbers checked is checked.
+    + Input: "Checked"
+    + Output: "The beepBoopReversed() function is called and the program begins counting down from the input.
 
     
      
