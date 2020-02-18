@@ -28,7 +28,7 @@ $(document).ready(function() {
 		// beepBoop function loops through all numbers leading up to the inputted number
 		const beepBoop = () => {
 			let currentNumber = 0;
-			while (currentNumber !== parseInt(input)) {
+			while (currentNumber <= parseInt(input)) {
 				let currentSplit = currentNumber.toString().split('');
 				if (currentSplit.includes('3')) {
 					$('#summary').append(`I'm sorry, ${name} I'm afraid I can't do that. `);
